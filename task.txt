@@ -1,0 +1,11 @@
+task-1:
+html page(enhance it as portfolio)
+
+task-2:
+odd or event using bitwise
+
+task-3:
+diff btw spread and rest
+
+task-4:
+callback

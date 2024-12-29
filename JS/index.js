@@ -6,7 +6,7 @@ obj["name"]="V"
 console.log(obj)
 
 a=10
-if(a%2==0){
+if(a==0){
     console.log(a," is even");
 }
 else{
