@@ -9,3 +9,7 @@ diff btw spread and rest
 
 task-4:
 callback
+
+
+DAY 2:
+    task-1:

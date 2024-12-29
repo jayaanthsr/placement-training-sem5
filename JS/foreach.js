@@ -1,12 +1,11 @@
-//example 1
-
+console.log("Example 1:")
 arr=[10,20,30,40]
 
 arr.forEach((element,index)=>{
     console.log(element,index);
 });
 
-//example 2
+console.log("Example 2:")
 
 obj={
     "firstname":'jayaanth',
@@ -14,6 +13,6 @@ obj={
     "area":'erode'
 }
 
-obj.forEach((k,v)=>{
+arr.forEach((k,v)=>{
     console.log(k,v);
 });
