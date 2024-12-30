@@ -21,28 +21,10 @@
     padding: 10px;
 }
 
-.navbar{
-    background-color: gray;
-    padding: 20px;
-    margin: 0px;
-    border: 0px;
-}
-
-.navbar ul {
-    display: flex;
-    text-decoration: none;
+.table ul {
     list-style: none;
 }
-.navbar li{
-    padding-left: 20px;
-    background-color: black;
-    color: aliceblue;
-    border-radius: 20px;
-    padding: 8px;
-    margin-left: 10px;
-}
-.navbar ul :hover{
-    background-color: white;
-    color: black;
-    transition: 0.8s;
+button{
+    margin: 20px;
+    padding: 10px;
 }
