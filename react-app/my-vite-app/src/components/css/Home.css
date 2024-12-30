@@ -1,0 +1,48 @@
+.row{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+}
+.row .col1{
+    color: tomato;
+    background-color: yellow;
+    border: 10px offset;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.row .col2{
+    color: blue;
+    background-color: brown;
+    border: 10px offset;
+    margin: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.navbar{
+    background-color: gray;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+}
+
+.navbar ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar li{
+    padding-left: 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 10px;
+}
+.navbar ul :hover{
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
