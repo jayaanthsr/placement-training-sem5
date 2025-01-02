@@ -1,0 +1,10 @@
+.row img{
+    max-width: 200px;
+}
+.row .col1{
+    color: white;
+    background-color: rgb(18, 18, 65);
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

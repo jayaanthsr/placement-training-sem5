@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(10, 10, 115);
+}
 .row{
     display: flex;
     padding: 20px;
@@ -5,7 +8,6 @@
 }
 .row .col1{
     color: tomato;
-    background-color: yellow;
     border: 10px offset;
     margin: 20px;
     padding: 10px;
@@ -13,8 +15,7 @@
 }
 
 .row .col2{
-    color: blue;
-    background-color: brown;
+    color: rgb(255, 255, 255);
     border: 10px offset;
     margin: 20px;
     text-align: justify;
@@ -23,8 +24,19 @@
 
 .table ul {
     list-style: none;
+    text-align: center;
 }
+
+
 button{
     margin: 20px;
     padding: 10px;
+    
+}
+.welcome{
+    background-color: rgb(3, 3, 32);
+    color:  rgb(3, 3, 32);
+}
+.table h2{
+    color: beige;
 }
