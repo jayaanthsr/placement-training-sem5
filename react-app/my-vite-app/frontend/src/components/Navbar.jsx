@@ -14,6 +14,7 @@ var Navbar = () =>{
                 <li><Link to={'/about'} style={{textDecoration: "none",color:"white"}}>About Us</Link></li>
                 <li><Link to={'/contact'}style={{textDecoration: "none",color:"white"}}>Contact Us</Link></li>
                 <li><Link to={'/location'}style={{textDecoration: "none",color:"white"}}>Location</Link></li>
+                <li><Link to={'/useMemo'}style={{textDecoration: "none",color:"white"}}>UseMemo</Link></li>
             </ul>
         </div>
     )

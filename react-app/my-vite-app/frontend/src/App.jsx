@@ -4,7 +4,8 @@ import AboutUs from './components/UseRef';
 import ContactUs from './components/UseContext';
 import UseEffect from './components/UseEffect';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import UseMemo from './components/UseMemo';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about' element={<AboutUs/>}/>
           <Route path='/contact' element={<ContactUs/>}/>
           <Route path='/location' element={<UseEffect/>}/>
+          <Route path='/useMemo' element={<UseMemo/>}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>
