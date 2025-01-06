@@ -24,7 +24,7 @@ var Ashwin=(props)=>{
     return (
         <div>
             <p className="welcome">welcome</p>
-            <h1 style={{color:"yellow",textAlign:"center"}}>{props.Name}: the Rise</h1>
+            <h1 style={{color:"yellow",textAlign:"center"}}>{localStorage.getItem("user_name")}: the Rise</h1>
             
             
             <div className="row">

@@ -1,5 +1,5 @@
 import React from "react";
-import Component4 from "./ContextComponents copy/component4";
+import Component4 from "./ContextComponents/component4"
 import '../components/css/Home.css'
 
 export var ThemeProvider =React.createContext();

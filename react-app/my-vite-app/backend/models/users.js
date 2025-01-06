@@ -1,11 +1,11 @@
-var mdb = require('mongoose')
+var mongoDB = require('mongoose')
 
-var userSchema = mdb.Schema({
-    firstName:String,
-    lastName:String,
-    email:String,
+var UserData=mongoDB.Schema ({
+    "userName":String,
+    "password":String
 })
-var user_schema=mdb.model("users",userSchema)
-module.exports = user_schema
+var User_Data = mongoDB.model("user",UserData)
 
 
+
+module.exports = User_Data;
