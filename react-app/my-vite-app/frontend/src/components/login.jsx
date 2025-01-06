@@ -14,7 +14,7 @@ var Login = () => {
     e.preventDefault()
 
       const res= await axios
-      .post("http://localhost:3000/login", { userName, password })
+      .post("https://placement-training-sem5-2.onrender.com/login", { userName, password })
       console.log(res.data==userName)
       localStorage.setItem("user_name",res.data)
    

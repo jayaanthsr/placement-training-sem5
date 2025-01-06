@@ -10,7 +10,7 @@ var SignUp = () => {
   var signUp = async (e) => {
     console.log("inside");
     e.preventDefault();
-    var req = await axios.post('http://localhost:3000/signUp', {
+    var req = await axios.post('https://placement-training-sem5-2.onrender.com/signUp', {
         userName: userName,
         password: password,
       })
